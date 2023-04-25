@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css" media="(min-width: 700px)">
+  <link rel="stylesheet" href="styles2.css" media="(max-width: 700px)">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | News homepage</title>
+
+  <script src="script.js" defer></script>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    h1 {
+      font-family: 'League Spartan', sans-serif;
+      font-weight: 800;
+    }
+
+    .web3Future>h1 {
+      margin-top: 20px;
+    }
+
+    .attribution {
+      height: 40px;
+      margin-top: 50px;
+      font-size: 15px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    .overlay.open {
+      display: block;
+    }
+
+    .nav-drawer.open {
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="nav">
+    <div class="navigators">
+      <div class="logo-div">
+        <a><img src="assets\images\logo.svg" alt="logo" class="logo"></a>
+      </div>
+      <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">New</a>
+        <a href="#">Popular</a>
+        <a href="#">Trending</a>
+        <a href="#">Categories</a>
+      </div>
+    </div>
+  </div>
+  <div class="nav2">
+    <div class="navigators2">
+      <div class="mobile-logo-div">
+        <img src="assets\images\logo.svg" alt="logo" class="logo2">
+      </div>
+      <div class="menu-icon-div">
+        <img src="assets\images\icon-menu.svg" alt="menu icon" class="menu-icon">
+      </div>
+    </div>
+  </div>
+  <div class="overlay"></div>
+  <div class="nav-drawer">
+    <div class="inner-nav-drawer">
+      <div class="close-icon-div">
+        <img src="assets\images\icon-menu-close.svg" alt="close icon menu" class="close-icon">
+      </div>
+      <div class="links">
+        <a href="#">
+          <h2>Home</h2>
+        </a>
+        <a href="#">
+          <h2>New</h2>
+        </a>
+        <a href="#">
+          <h2>Popular</h2>
+        </a>
+        <a href="#">
+          <h2>Trending</h2>
+        </a>
+        <a href="#">
+          <h2>Categories</h2>
+        </a>
+      </div>
+    </div>
+  </div>
+  <main>
+    <div class="main-content">
+      <div class="content">
+        <div class="web3-div">
+          <div class="web3">
+            <div class="web3-img-div">
+              <img src="assets\images\image-web-3-desktop.jpg" alt="web3 img" class="web3-img">
+              <img src="assets\images\image-web-3-mobile.jpg" alt="web3 img" class="mobile-web3-img">
+            </div>
+            <!-- <div class="descriptions-div"></div> -->
+            <div class="descriptions">
+              <div class="web3Future">
+                <h1>The Bright<br>Future of <br class="display">Web<br class="display2"> 3.0?</h1>
+              </div>
+              <div class="web3More">
+                <p>We dive into the next evolution of the web that<br>claims to put the power of the platforms
+                  back<br>into
+                  the hands of the people.
+                  But is it really<br>fulfilling its promise?</p>
+                <button class="read-more-btn">READ MORE</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="new-div">
+            <div class="inner-new-div">
+              <div class="new">
+                <h1>New</h1>
+              </div>
+              <div class="divs">
+                <div class="div div1">
+                  <h3>Hydrogen VS Electric Cars</h3>
+                  <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+                </div>
+                <div class="div div2">
+                  <hr>
+                  <h3>The Downsides of AI Artistry</h3>
+                  <p>What are the possible adverse effects of on-<br>demand AI image generation?</p>
+                </div>
+                <div class="div div3">
+                  <hr>
+                  <h3>Is VC Funding Drying Up?</h3>
+                  <p>Private funding by VC firms is down 50%<br>YOY. We take a look at what that means.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="web3-future">
+          <div class="griddivs">
+            <div class="griddiv griddiv1">
+              <div class="img-div">
+                <img src="assets\images\image-retro-pcs.jpg" alt="retro pcs">
+              </div>
+              <div class="texts">
+                <h2>01</h2>
+                <h3>Reviving Retro PCs</h3>
+                <p>What happens when old PCs<br>are given modern upgrades?</p>
+              </div>
+            </div>
+            <div class="griddiv griddiv2">
+              <div class="img-div">
+                <img src="assets\images\image-top-laptops.jpg" alt="top laptops">
+              </div>
+              <div class="texts">
+                <h2>02</h2>
+                <h3>Top 10 Laptops of 2022</h3>
+                <p>Our best picks for various<br>needs and budgets.</p>
+              </div>
+            </div>
+            <div class="griddiv griddiv3">
+              <div class="img-div">
+                <img src="assets\images\image-gaming-growth.jpg" alt="gaming growth">
+              </div>
+              <div class="texts">
+                <h2>03</h2>
+                <h3>The Growth of Gaming</h3>
+                <p>How the pandemic has sparked<br>fresh opportunities.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+
+</html>
+
+
+
+<!-- Home
+  New
+  Popular
+  Trending
+  Categories
+
+  The Bright Future of Web 3.0?
+
+  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+  But is it really fulfilling its promise?
+
+  Read more
+
+  New 
+
+  Hydrogen VS Electric Cars
+  Will hydrogen-fueled cars ever catch up to EVs?
+
+  The Downsides of AI Artistry
+  What are the possible adverse effects of on-demand AI image generation?
+
+  Is VC Funding Drying Up?
+  Private funding by VC firms is down 50% YOY. We take a look at what that means.
+
+  01
+  Reviving Retro PCs
+  What happens when old PCs are given modern upgrades?
+
+  02
+  Top 10 Laptops of 2022
+  Our best picks for various needs and budgets.
+
+  03
+  The Growth of Gaming
+  How the pandemic has sparked fresh opportunities. -->

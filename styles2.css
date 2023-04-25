@@ -1,0 +1,208 @@
+.nav {
+    display: none;
+}
+
+.nav2 {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .75);
+}
+
+.nav-drawer {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 65vw;
+    height: 100%;
+    background-color: hsl(36, 100%, 99%);
+    /* TODO: search box-shadow */
+    /* box-shadow: 5px 0px 5px; */
+}
+
+a {
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+}
+
+.links {
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+.close-icon-div {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.close-icon {
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.display2 {
+    display: block;
+}
+
+.display {
+    display: none;
+}
+
+.navigators2 {
+    margin-left: 10px;
+    width: 420px;
+    display: grid;
+    grid-template-columns: 360px auto;
+}
+
+.menu-icon {
+    margin-top: 10px;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    width: 480px;
+}
+
+.web3-img {
+    display: none;
+}
+
+.mobile-web3-img {
+    width: 400px;
+    height: 400px;
+    margin-left: 40px;
+}
+
+.web3Future>h1 {
+    display: inline;
+    color: hsl(240, 100%, 5%);
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.descriptions {
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.web3More>p {
+    display: inline-block;
+    font-size: 20px;
+    color: hsl(233, 8%, 79%);
+}
+
+.read-more-btn {
+    width: 150px;
+    height: 35px;
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+    border: 0px;
+    margin-top: 20px;
+}
+
+.new-div {
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+    margin-top: 70px;
+    width: 400px;
+    height: 460px;
+    background-color: hsl(240, 100%, 5%)
+}
+
+.inner-new-div {
+    width: 350px;
+}
+
+.new>h1 {
+    color: hsl(35, 77%, 62%);
+    margin-left: 15px;
+}
+
+.div>h3,
+.div>p {
+    color: hsl(36, 100%, 99%);
+    margin-left: 15px;
+}
+
+.divs {
+    margin-top: 40px;
+}
+
+.div>p {
+    font-size: 15px;
+    font-weight: 100;
+    color: hsl(233, 8%, 79%);
+}
+
+.div>hr {
+    width: 250px;
+    height: 2px;
+    color: black;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.web3-future {
+    margin-left: 40px;
+    margin-top: 70px;
+}
+
+.griddiv {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.griddiv2 {
+    margin-top: 20px;
+}
+
+.griddiv3 {
+    margin-top: 20px;
+}
+
+.img-div>img {
+    height: 150px;
+}
+
+.texts {
+    margin-left: -10px;
+}
+
+.texts>h2 {
+    color: hsl(233, 8%, 79%);
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.texts>h3 {
+    font-size: 25px;
+    color: hsl(240, 100%, 5%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.texts>p {
+    font-size: 20px;
+    color: hsl(236, 13%, 42%);
+}
