@@ -63,7 +63,7 @@ a {
 .navigators2 {
     width: 90vw;
     display: grid;
-    grid-template-columns: 390px auto;
+    grid-template-columns: 390px 300px;
 }
 
 .menu-icon {
@@ -104,6 +104,7 @@ a {
 }
 
 .web3More>p {
+    width: 100%;
     display: inline-block;
     font-size: 20px;
     color: hsl(233, 8%, 79%);
@@ -129,7 +130,7 @@ a {
 }
 
 .inner-new-div {
-    width: 70vw;
+    width: 80vw;
 }
 
 .new>h1 {
@@ -137,12 +138,9 @@ a {
     margin-left: 15px;
 }
 
-.div>h3 {
-    width: 100%;
-}
-
 .div>h3,
 .div>p {
+    width: 100%;
     color: hsl(36, 100%, 99%);
     margin-left: 15px;
 }
@@ -188,10 +186,6 @@ a {
 
 .img-div>img {
     height: 25vh;
-}
-
-.texts {
-    margin-left: -15vw;
 }
 
 .texts>h2 {
